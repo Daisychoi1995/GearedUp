@@ -1,36 +1,64 @@
-# Geared Up
-# Boilerplate: Fullstack with Sass
+# 🚴‍♀️ Geared Up
 
-## Setup
+**Geared Up** is our final group showcase project, built from scratch by a team of six passionate developers.  
+It was my first time collaborating in a group this big (I’d only worked in teams of 2 or 3 before), so this was a huge learning moment for me.
 
-### What's included
+We focused on building a well structured full stack app with strong collaboration, testing practices, and a clean user experience.  
+Despite the challenges, we found our rhythm—dividing tasks, aligning ideas, and communicating effectively.  
+One thing I’m especially proud of? We wrote **43 tests** to keep our codebase rock solid 💪
 
-This repo includes:
-
-* a single, simple API endpoint (`/api/v1/fruits`)
-* a single React component (`<App />`)
-* an example database module (`server/db/fruits.js`)
-* an API client module (`client/apis/fruits.js`)
-* configuration for Vitest and testing library
-* configuration for server-side debugging in VS Code
-* configuration for preprocessing Sass
-
-### Installation
-
-#### **From the Github UI**
-
-See the instructions [here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template) to use Github's feature to create a new repo from a template.
-
-#### **From the command line**
-
-```
-git clone https://github.com/dev-academy-challenges/boilerplate-fullstack [your-project-name]
-cd [your-project-name]
-npm install # to install dependencies
-npm run dev # to start the dev server
-```
-
-You can find the server running on [http://localhost:3000](http://localhost:3000) and the client running on [http://localhost:5173](http://localhost:5173).
+This project really pushed me to grow—both in teamwork and technical skills—and I’m super proud of what we created together.
 
 ---
-[Provide feedback on this repo](https://docs.google.com/forms/d/e/1FAIpQLSfw4FGdWkLwMLlUaNQ8FtP2CTJdGDUv6Xoxrh19zIrJSkvT4Q/viewform?usp=pp_url&entry.1958421517=boilerplate-fullstack)
+
+## 🌱 Tech Stack
+
+### 🖥 Client
+- React
+- TypeScript
+- Tailwind CSS
+- Vite
+
+### 🛠 Server
+- Node.js
+- Express
+- Knex.js
+- SQLite3
+- Auth0 (authentication)
+- Superagent (HTTP requests)
+
+### ✅ Testing
+- Vitest
+- React Testing Library
+- Nock (HTTP mocking)
+
+---
+
+# 🚀 Getting Started
+
+## Clone the repository
+git clone https://github.com/Daisychoi1995/GearedUp.git
+cd GearedUp
+
+## Install dependencies
+npm install
+
+## Run development server
+npm run dev
+
+# 🛠 Environment Variables
+
+Make a copy of `.env.example` and rename it to `.env`. Then, fill in your own values:
+
+```bash
+cp .env.example .env
+```
+---
+
+
+
+## 🧪 Run Tests
+```bash
+npm test
+```
+We wrote 43 tests to ensure stability and reliability throughout the app.
